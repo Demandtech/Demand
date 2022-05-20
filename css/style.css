@@ -53,6 +53,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#contact-hero-header{
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/contact-hero-bg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .btn-primary{
  background-color:#3498db;
 }
@@ -60,7 +67,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-family: "Raleway", sans-serif;
 }
-/*header hero personal styling ends here*/
+
 
 #what-we-do .container .text-center h2{
   font-family: "Raleway", sans-serif;
@@ -86,7 +93,7 @@
 .card{
  transition: all 0.3s ease-in-out;
 }
-.card:hover{
+.item .card:hover{
    box-shadow: rgba(18, 66, 101, 0.08) 0px 0px 29px 0px;
 }
 
@@ -97,6 +104,12 @@
 }
 .start-header p{
   font-family: "Open sans", sans-serif;
+}
+.location :hover h6{
+  color: #3498db !important;
+}
+.location :hover img{
+   background-color: #3498db !important;
 }
 
 
