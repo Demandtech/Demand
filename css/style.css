@@ -12,9 +12,13 @@
 .text-dark{
  color: #384046 !important;
 }
+.bg-secondary{
+  background-color: rgb(239, 245, 245) !important;
+}
 .bg-dark{
  background-color: #384046 !important;
 }
+
 .text-secondary{
  color: #4f5a62 !important;
 }
@@ -92,6 +96,8 @@
   font-family: "Raleway", sans-serif;
 }
 .start-header p{
-  font-family: "Open sans";
+  font-family: "Open sans", sans-serif;
 }
+
+
 
