@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.bg-light{
+  background-color: white !important;
+}
+.text-dark{
+ color: #384046 !important;
+}
+.bg-dark{
+ background-color: #384046 !important;
+}
+.text-secondary{
+ color: #4f5a62 !important;
+}
+.text-success{
+ color: #16507b !important;
+}
+.text-info{
+ color: #919191 !important;
+}
+.navbar-brand{
+ font-family: "Raleway", sans-serif;
+}
+.navbar-nav{
+ font-family: "poppins", sans-serif;
+ font-weight: 500;
+}
+.active{
+ color: #3498db !important;
+}
+.navbar-nav li  a:hover, .social .fa-brands:hover{
+  color: #3498db !important;
+}
+.social .fa-brands  {
+   color: #9ba6af;
+   font-size: 16px;
+}
+/*personal styling for navigation bar ends here */
+#hero-header{
+  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/hero-bg.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-primary{
+ background-color:#3498db;
+}
+.dull-white{
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Raleway", sans-serif;
+}
+/*header hero personal styling ends here*/
+
+#what-we-do .container .text-center h2{
+  font-family: "Raleway", sans-serif;
+}
+#what-we-do .container .text-center p{
+  font-family: "Open sans";
+}
+.img{
+ background-color: #eaf4fb;
+ border-radius: 50%;
+ padding: 15px;
+}
+.fs-6{
+ font-size: 14px !important;
+}
+.card h3{
+ cursor: pointer;
+ transition: 0.3s;
+}
+.card :hover h3{
+ color: #3498db;
+}
+.card{
+ transition: all 0.3s ease-in-out;
+}
+.card:hover{
+   box-shadow: rgba(18, 66, 101, 0.08) 0px 0px 29px 0px;
+}
+
+/*pricing*/
+
+.start-header h2{
+  font-family: "Raleway", sans-serif;
+}
+.start-header p{
+  font-family: "Open sans";
+}
+
