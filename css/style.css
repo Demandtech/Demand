@@ -6,6 +6,9 @@
  margin: 0;
  box-sizing: border-box;
 }
+body{
+  min-height: 100vh;
+}
 .bg-light{
   background-color: white !important;
 }
@@ -47,14 +50,14 @@
 }
 /*personal styling for navigation bar ends here */
 #hero-header{
-  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/hero-bg.jpeg);
+  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(../img/hero-bg.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #contact-hero-header{
-   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/contact-hero-bg.jpeg);
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(../img/contact-hero-bg.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,6 +114,7 @@
 .location :hover img{
    background-color: #3498db !important;
 }
+
 
 
 
