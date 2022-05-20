@@ -50,21 +50,21 @@ body{
 }
 /*personal styling for navigation bar ends here */
 #hero-header{
-  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/hero-bg.jpeg);
+  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/hero-bg.jpeg) !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #contact-hero-header{
-   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/contact-hero-bg.jpeg);
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/contact-hero-bg.jpeg) !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #about-hero-header{
-   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/about-hero-bg.jpeg);
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/about-hero-bg.jpeg) !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
