@@ -1,19 +1,13 @@
-
+/*font-family import*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+.fs-6{
+ font-size: 14px !important;
 }
-body{
-  min-height: 100vh;
-}
+
+/*background-colors*/
 .bg-light{
   background-color: white !important;
-}
-.text-dark{
- color: #384046 !important;
 }
 .bg-secondary{
   background-color: rgb(239, 245, 245) !important;
@@ -21,7 +15,12 @@ body{
 .bg-dark{
  background-color: #384046 !important;
 }
+.bg-info{
+background-color: #eaf4fb !important;
+}
+/*background-colors ends here*/
 
+/*colors*/
 .text-secondary{
  color: #4f5a62 !important;
 }
@@ -31,97 +30,81 @@ body{
 .text-info{
  color: #919191 !important;
 }
-.navbar-brand{
- font-family: "Raleway", sans-serif;
-}
-.navbar-nav{
- font-family: "poppins", sans-serif;
- font-weight: 500;
-}
 .active{
  color: #3498db !important;
 }
-.navbar-nav li  a:hover, .social .fa-brands:hover{
-  color: #3498db !important;
+.text-dark{
+ color: #384046 !important;
 }
-.social .fa-brands  {
-   color: #9ba6af;
-   font-size: 16px;
+.text-primary{
+  color: #9ba6af !important;
 }
-/*personal styling for navigation bar ends here */
-#hero-header{
-  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/hero-bg.jpeg) !important;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#contact-hero-header{
-   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/contact-hero-bg.jpeg) !important;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#about-hero-header{
-   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(/img/about-hero-bg.jpeg) !important;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/*colors ends here*/
 
-.btn-primary{
- background-color:#3498db;
-}
-.dull-white{
-  color: rgba(255, 255, 255, 0.8);
-  font-family: "Raleway", sans-serif;
-}
-
-
-#what-we-do .container .text-center h2{
-  font-family: "Raleway", sans-serif;
+/*font-family*/
+.navbar-brand, 
+.start-header h2,
+#what-we-do .container .text-center h2
+{
+ font-family: "Raleway", sans-serif !important;
 }
 #what-we-do .container .text-center p{
-  font-family: "Open sans";
+  font-family: "Open sans", sans-serif !important;
 }
-.img{
- background-color: #eaf4fb;
- border-radius: 50%;
- padding: 15px;
+.navbar-nav,
+.start-header p{
+ font-family: "poppins", sans-serif !important;
 }
-.fs-6{
- font-size: 14px !important;
-}
-.card h3{
- cursor: pointer;
- transition: 0.3s;
-}
-.card :hover h3{
- color: #3498db;
-}
+/*font-family end here*/
+
 .card{
  transition: all 0.3s ease-in-out;
 }
+.card h3{
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+}
+/*hover*/
+.navbar-nav li  a:hover, 
+.social .fa-brands:hover,
+.card :hover h3,
+.location :hover h6
+{
+  color: #3498db !important;
+}
+
+.location :hover img{
+   background-color: #3498db !important;
+}
+
 .item .card:hover{
    box-shadow: rgba(18, 66, 101, 0.08) 0px 0px 29px 0px;
 }
 
-/*pricing*/
+/*hover ends here*/
 
-.start-header h2{
-  font-family: "Raleway", sans-serif;
+/*backgrounds images*/
+#hero-header{
+  background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(../img/hero-bg.jpeg) no-repeat center !important;
+   background-size: cover;
 }
-.start-header p{
-  font-family: "Open sans", sans-serif;
+#contact-hero-header{
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(../img/contact-hero-bg.jpeg) no-repeat  center !important;
+  background-size: cover;
 }
-.location :hover h6{
-  color: #3498db !important;
+#about-hero-header{
+   background: linear-gradient(45deg, rgba(56, 64, 70, 0.7), rgba(56, 64, 70, 0.7)), url(../img/about-hero-bg.jpeg) no-repeat center !important;
+   background-size: cover;
 }
-.location :hover img{
-   background-color: #3498db !important;
-}
+/*backgrounds images end here*/
+
+
+
+
+
+
+
+
 
 
 
